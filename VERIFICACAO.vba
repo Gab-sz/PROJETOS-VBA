@@ -19,7 +19,7 @@ Private Sub Worksheet_Change(ByVal Target As Range)
         Application.EnableEvents = False ' Impede que o código cause recursividade
 
         ' Define a pasta raiz onde os arquivos estão armazenados (OneDrive corporativo)
-        pastaRaiz = Environ("USERPROFILE") & "\MerckGroup\ORCAMENTOS - General\"
+        pastaRaiz = Environ("USERPROFILE") & "\tkinGroup\ORCAMENTOS - General\"
         Set fso = CreateObject("Scripting.FileSystemObject")
 
         ' Define as subpastas autorizadas para busca
