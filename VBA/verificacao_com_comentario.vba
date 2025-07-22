@@ -1,6 +1,3 @@
-### Código VBA Final (Didático e com Depuração Máxima)
-
-```vb
 ' =================================================================================================
 ' EVENTO PRINCIPAL: Executa sempre que uma célula da planilha for alterada.
 ' É como um "assistente robô" que fica vigiando a planilha.
